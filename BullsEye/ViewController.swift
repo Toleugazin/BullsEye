@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
        
-        print("smth")
+        
         
         let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
         slider.setThumbImage(thumbImageNormal, for: .normal)
