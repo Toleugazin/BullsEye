@@ -61,16 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				D0A2E8A924C63A5C00AE81B2 /* BullsEye.html */,
-				D0A2E89324C4473B00AE81B2 /* AppDelegate.swift */,
-				D0A2E89524C4473B00AE81B2 /* SceneDelegate.swift */,
+				D0BD21BB24C64BB00041C55E /* Supporting */,
 				D0A2E89724C4473B00AE81B2 /* ViewController.swift */,
 				D0A2E8A724C634A700AE81B2 /* AboutViewController.swift */,
 				D0A2E89924C4473B00AE81B2 /* Main.storyboard */,
 				D0A2E89C24C4473F00AE81B2 /* Assets.xcassets */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D0BD21BB24C64BB00041C55E /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D0A2E89324C4473B00AE81B2 /* AppDelegate.swift */,
+				D0A2E89524C4473B00AE81B2 /* SceneDelegate.swift */,
 				D0A2E89E24C4473F00AE81B2 /* LaunchScreen.storyboard */,
 				D0A2E8A124C4473F00AE81B2 /* Info.plist */,
 			);
-			path = BullsEye;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
