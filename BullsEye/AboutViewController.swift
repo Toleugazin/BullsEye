@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 
 class AboutViewController: UIViewController {
-
+    
     @IBOutlet weak var webView: WKWebView!
     
     @IBAction func Close() {
@@ -22,7 +22,8 @@ class AboutViewController: UIViewController {
         super.viewDidLoad()
         
         if let url = Bundle.main.url(forResource: "BullsEye",
-                                     withExtension: "html") {
+                                     withExtension: "html")
+        {
         let request = URLRequest(url: url)
         webView.load(request) }
     }

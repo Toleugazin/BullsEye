@@ -20,6 +20,14 @@ class ViewController: UIViewController {
 
   
     func startNewRound() {
+        
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey: nil)
+        
+        
         targetValue = Int.random(in: 1...100)
         currentValue = 50
         slider.value = Float(currentValue)
